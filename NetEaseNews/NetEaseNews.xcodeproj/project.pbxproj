@@ -7,25 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		708BB7B91D367B6A00FB43A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708BB7B81D367B6A00FB43A7 /* AppDelegate.swift */; };
-		708BB7BB1D367B6A00FB43A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 708BB7BA1D367B6A00FB43A7 /* ViewController.swift */; };
-		708BB7BE1D367B6A00FB43A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708BB7BC1D367B6A00FB43A7 /* Main.storyboard */; };
-		708BB7C01D367B6A00FB43A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 708BB7BF1D367B6A00FB43A7 /* Assets.xcassets */; };
-		708BB7C31D367B6A00FB43A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 708BB7C11D367B6A00FB43A7 /* LaunchScreen.storyboard */; };
+		70559F461D3721C500461954 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 70559F451D3721C500461954 /* main.m */; };
+		70559F491D3721C500461954 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 70559F481D3721C500461954 /* AppDelegate.m */; };
+		70559F4C1D3721C500461954 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 70559F4B1D3721C500461954 /* ViewController.m */; };
+		70559F4F1D3721C500461954 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70559F4D1D3721C500461954 /* Main.storyboard */; };
+		70559F511D3721C500461954 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70559F501D3721C500461954 /* Assets.xcassets */; };
+		70559F541D3721C500461954 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70559F521D3721C500461954 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		708BB7B51D367B6A00FB43A7 /* NetEaseNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEaseNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		708BB7B81D367B6A00FB43A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		708BB7BA1D367B6A00FB43A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		708BB7BD1D367B6A00FB43A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		708BB7BF1D367B6A00FB43A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		708BB7C21D367B6A00FB43A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		708BB7C41D367B6A00FB43A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70559F411D3721C500461954 /* NetEaseNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NetEaseNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		70559F451D3721C500461954 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		70559F471D3721C500461954 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		70559F481D3721C500461954 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		70559F4A1D3721C500461954 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		70559F4B1D3721C500461954 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		70559F4E1D3721C500461954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		70559F501D3721C500461954 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		70559F531D3721C500461954 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		70559F551D3721C500461954 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		708BB7B21D367B6A00FB43A7 /* Frameworks */ = {
+		70559F3E1D3721C500461954 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -35,45 +39,192 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		708BB7AC1D367B6A00FB43A7 = {
+		70559F381D3721C500461954 = {
 			isa = PBXGroup;
 			children = (
-				708BB7B71D367B6A00FB43A7 /* NetEaseNews */,
-				708BB7B61D367B6A00FB43A7 /* Products */,
+				70559F431D3721C500461954 /* NetEaseNews */,
+				70559F421D3721C500461954 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		708BB7B61D367B6A00FB43A7 /* Products */ = {
+		70559F421D3721C500461954 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				708BB7B51D367B6A00FB43A7 /* NetEaseNews.app */,
+				70559F411D3721C500461954 /* NetEaseNews.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		708BB7B71D367B6A00FB43A7 /* NetEaseNews */ = {
+		70559F431D3721C500461954 /* NetEaseNews */ = {
 			isa = PBXGroup;
 			children = (
-				708BB7B81D367B6A00FB43A7 /* AppDelegate.swift */,
-				708BB7BA1D367B6A00FB43A7 /* ViewController.swift */,
-				708BB7BC1D367B6A00FB43A7 /* Main.storyboard */,
-				708BB7BF1D367B6A00FB43A7 /* Assets.xcassets */,
-				708BB7C11D367B6A00FB43A7 /* LaunchScreen.storyboard */,
-				708BB7C41D367B6A00FB43A7 /* Info.plist */,
+				70559F641D3721E800461954 /* Topic */,
+				70559F5F1D3721E800461954 /* News */,
+				70559F681D3721E800461954 /* Video */,
+				70559F5B1D3721E800461954 /* Me */,
+				70559F631D3721E800461954 /* Other */,
+				70559F471D3721C500461954 /* AppDelegate.h */,
+				70559F481D3721C500461954 /* AppDelegate.m */,
+				70559F4A1D3721C500461954 /* ViewController.h */,
+				70559F4B1D3721C500461954 /* ViewController.m */,
+				70559F4D1D3721C500461954 /* Main.storyboard */,
+				70559F501D3721C500461954 /* Assets.xcassets */,
+				70559F521D3721C500461954 /* LaunchScreen.storyboard */,
+				70559F551D3721C500461954 /* Info.plist */,
+				70559F441D3721C500461954 /* Supporting Files */,
 			);
 			path = NetEaseNews;
+			sourceTree = "<group>";
+		};
+		70559F441D3721C500461954 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				70559F451D3721C500461954 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		70559F5B1D3721E800461954 /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				70559F5C1D3721E800461954 /* Controller */,
+				70559F5D1D3721E800461954 /* Model */,
+				70559F5E1D3721E800461954 /* View */,
+			);
+			path = Me;
+			sourceTree = "<group>";
+		};
+		70559F5C1D3721E800461954 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70559F5D1D3721E800461954 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70559F5E1D3721E800461954 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70559F5F1D3721E800461954 /* News */ = {
+			isa = PBXGroup;
+			children = (
+				70559F601D3721E800461954 /* Controller */,
+				70559F611D3721E800461954 /* Model */,
+				70559F621D3721E800461954 /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		70559F601D3721E800461954 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70559F611D3721E800461954 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70559F621D3721E800461954 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70559F631D3721E800461954 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		70559F641D3721E800461954 /* Topic */ = {
+			isa = PBXGroup;
+			children = (
+				70559F651D3721E800461954 /* Controller */,
+				70559F661D3721E800461954 /* Model */,
+				70559F671D3721E800461954 /* View */,
+			);
+			path = Topic;
+			sourceTree = "<group>";
+		};
+		70559F651D3721E800461954 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70559F661D3721E800461954 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70559F671D3721E800461954 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70559F681D3721E800461954 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				70559F691D3721E800461954 /* Controller */,
+				70559F6A1D3721E800461954 /* Model */,
+				70559F6B1D3721E800461954 /* View */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		70559F691D3721E800461954 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70559F6A1D3721E800461954 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70559F6B1D3721E800461954 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		708BB7B41D367B6A00FB43A7 /* NetEaseNews */ = {
+		70559F401D3721C500461954 /* NetEaseNews */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 708BB7C71D367B6A00FB43A7 /* Build configuration list for PBXNativeTarget "NetEaseNews" */;
+			buildConfigurationList = 70559F581D3721C500461954 /* Build configuration list for PBXNativeTarget "NetEaseNews" */;
 			buildPhases = (
-				708BB7B11D367B6A00FB43A7 /* Sources */,
-				708BB7B21D367B6A00FB43A7 /* Frameworks */,
-				708BB7B31D367B6A00FB43A7 /* Resources */,
+				70559F3D1D3721C500461954 /* Sources */,
+				70559F3E1D3721C500461954 /* Frameworks */,
+				70559F3F1D3721C500461954 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -81,25 +232,24 @@
 			);
 			name = NetEaseNews;
 			productName = NetEaseNews;
-			productReference = 708BB7B51D367B6A00FB43A7 /* NetEaseNews.app */;
+			productReference = 70559F411D3721C500461954 /* NetEaseNews.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		708BB7AD1D367B6A00FB43A7 /* Project object */ = {
+		70559F391D3721C500461954 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = dyuk;
 				TargetAttributes = {
-					708BB7B41D367B6A00FB43A7 = {
+					70559F401D3721C500461954 = {
 						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
-			buildConfigurationList = 708BB7B01D367B6A00FB43A7 /* Build configuration list for PBXProject "NetEaseNews" */;
+			buildConfigurationList = 70559F3C1D3721C500461954 /* Build configuration list for PBXProject "NetEaseNews" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -107,54 +257,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 708BB7AC1D367B6A00FB43A7;
-			productRefGroup = 708BB7B61D367B6A00FB43A7 /* Products */;
+			mainGroup = 70559F381D3721C500461954;
+			productRefGroup = 70559F421D3721C500461954 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				708BB7B41D367B6A00FB43A7 /* NetEaseNews */,
+				70559F401D3721C500461954 /* NetEaseNews */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		708BB7B31D367B6A00FB43A7 /* Resources */ = {
+		70559F3F1D3721C500461954 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				708BB7C31D367B6A00FB43A7 /* LaunchScreen.storyboard in Resources */,
-				708BB7C01D367B6A00FB43A7 /* Assets.xcassets in Resources */,
-				708BB7BE1D367B6A00FB43A7 /* Main.storyboard in Resources */,
+				70559F541D3721C500461954 /* LaunchScreen.storyboard in Resources */,
+				70559F511D3721C500461954 /* Assets.xcassets in Resources */,
+				70559F4F1D3721C500461954 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		708BB7B11D367B6A00FB43A7 /* Sources */ = {
+		70559F3D1D3721C500461954 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				708BB7BB1D367B6A00FB43A7 /* ViewController.swift in Sources */,
-				708BB7B91D367B6A00FB43A7 /* AppDelegate.swift in Sources */,
+				70559F4C1D3721C500461954 /* ViewController.m in Sources */,
+				70559F491D3721C500461954 /* AppDelegate.m in Sources */,
+				70559F461D3721C500461954 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		708BB7BC1D367B6A00FB43A7 /* Main.storyboard */ = {
+		70559F4D1D3721C500461954 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				708BB7BD1D367B6A00FB43A7 /* Base */,
+				70559F4E1D3721C500461954 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		708BB7C11D367B6A00FB43A7 /* LaunchScreen.storyboard */ = {
+		70559F521D3721C500461954 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				708BB7C21D367B6A00FB43A7 /* Base */,
+				70559F531D3721C500461954 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -162,7 +313,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		708BB7C51D367B6A00FB43A7 /* Debug */ = {
+		70559F561D3721C500461954 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -202,11 +353,10 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		708BB7C61D367B6A00FB43A7 /* Release */ = {
+		70559F571D3721C500461954 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -243,7 +393,7 @@
 			};
 			name = Release;
 		};
-		708BB7C81D367B6A00FB43A7 /* Debug */ = {
+		70559F591D3721C500461954 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -254,7 +404,7 @@
 			};
 			name = Debug;
 		};
-		708BB7C91D367B6A00FB43A7 /* Release */ = {
+		70559F5A1D3721C500461954 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -268,24 +418,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		708BB7B01D367B6A00FB43A7 /* Build configuration list for PBXProject "NetEaseNews" */ = {
+		70559F3C1D3721C500461954 /* Build configuration list for PBXProject "NetEaseNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				708BB7C51D367B6A00FB43A7 /* Debug */,
-				708BB7C61D367B6A00FB43A7 /* Release */,
+				70559F561D3721C500461954 /* Debug */,
+				70559F571D3721C500461954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		708BB7C71D367B6A00FB43A7 /* Build configuration list for PBXNativeTarget "NetEaseNews" */ = {
+		70559F581D3721C500461954 /* Build configuration list for PBXNativeTarget "NetEaseNews" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				708BB7C81D367B6A00FB43A7 /* Debug */,
-				708BB7C91D367B6A00FB43A7 /* Release */,
+				70559F591D3721C500461954 /* Debug */,
+				70559F5A1D3721C500461954 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 708BB7AD1D367B6A00FB43A7 /* Project object */;
+	rootObject = 70559F391D3721C500461954 /* Project object */;
 }

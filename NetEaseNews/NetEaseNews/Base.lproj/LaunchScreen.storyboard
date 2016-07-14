@@ -14,14 +14,31 @@
                         <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="about_hd" translatesAutoresizingMaskIntoConstraints="NO" id="rRQ-hC-wAq">
+                                <rect key="frame" x="0.0" y="512" width="375" height="155"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="155" id="jzB-Iv-6ee"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rRQ-hC-wAq" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="47h-xk-77h"/>
+                            <constraint firstAttribute="trailing" secondItem="rRQ-hC-wAq" secondAttribute="trailing" id="XFx-oy-EBJ"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="rRQ-hC-wAq" secondAttribute="bottom" id="hNb-OA-6Ev"/>
+                        </constraints>
                     </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="332" y="393"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="about_hd" width="375" height="149"/>
+    </resources>
 </document>
